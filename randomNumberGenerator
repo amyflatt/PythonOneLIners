@@ -1,0 +1,7 @@
+#generates random numbers in a range
+
+import random
+
+for i in range(10):
+	diceRoll = random.randint(1,11)
+	print(diceRoll)
